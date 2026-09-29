@@ -1,0 +1,16 @@
+{
+  "name": "vexora",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3",
+    "vazirmatn": "^33.0.3"
+  }
+}
